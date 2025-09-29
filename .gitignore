@@ -29,7 +29,7 @@ build/
 .env.*
 !*.env.example
 backend.env
-common.env   # <--- añadido
+common.env   
 
 # Vercel
 .vercel/
@@ -48,4 +48,4 @@ __pycache__/
 saleor-frontend/src/gql/
 
 # SQL scripts with credentials
-saleor-backend/replica_user.sql   # <--- añadido
+saleor-backend/replica_user.sql  
